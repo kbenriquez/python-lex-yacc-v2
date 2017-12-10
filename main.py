@@ -1,3 +1,9 @@
+# Kyle Marcus Enriquez
+#
+# This program uses PLY to read tokens as operators.
+# This program takes as input a text file with user inputs similar to code.
+# User inputs must always be enclosed in brackets (in a block).
+
 import math
 
 # ALL THE CLASSES
