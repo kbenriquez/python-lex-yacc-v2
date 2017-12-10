@@ -384,7 +384,6 @@ def p_error(t):
     print("Syntax error at '%s'" % t.value)
 
 import ply.yacc as yacc
-
 yacc.yacc()
 
 import sys
@@ -396,7 +395,6 @@ code = ""
 
 for line in fd:
     code += line.strip()
-
 try:
     lex.input(code)
     while True:
